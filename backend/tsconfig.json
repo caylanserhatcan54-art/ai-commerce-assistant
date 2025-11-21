@@ -1,22 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "es2017",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "rootDir": "src",
-    "outDir": "dist",
-    "baseUrl": "src",
-    "paths": {
-      "@middleware/*": ["middleware/*"],
-      "@config/*": ["config/*"],
-      "@modules/*": ["modules/*"],
-      "@routes/*": ["routes/*"]
-    },
+    "rootDir": "./src",
+    "outDir": "./dist",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
     "strict": false,
-    "skipLibCheck": true
+    "types": ["node"]
   },
   "include": ["src"]
 }
