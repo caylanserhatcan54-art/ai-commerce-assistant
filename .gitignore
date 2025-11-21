@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+.env
+.env.local
+.next/
+dist/
+build/
+.cache/
+firebase-debug.log
+.DS_Store
+.vscode/
